@@ -4,7 +4,7 @@
 
 # DigitalFUTURES Tutorial: Developing Custom Components in Grasshopper with Python
 
-
+![cover_image](https://github.com/mohammedbehjoo/DigitalFUTURES-Developing-Costum-Components-in-Grasshopper-with-Python/blob/fa899882fedfb67d51f1a3e4b9c5ad4a29fd6eaa/images/20%20November_IG-03.jpg)
 
 ![cover_image](https://github.com/mohammedbehjoo/DigitalFUTURES-Developing-Costum-Components-in-Grasshopper-with-Python/blob/0de33206c7d02d7018d42467b7cd65b64f4bea5d/images/18%20December_Graphics_CS5-01.png)
 
