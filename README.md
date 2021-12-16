@@ -36,8 +36,8 @@ Also you should Install Python. It's better not to install the latest version of
     pip install ghhops-server flask 
     	 pip install rhinoinside
     
-    ## Instrcutor
-    You can find me on [these platform](https://linktr.ee/MohammedBehjoo)
+## Instrcutor
+You can find me on [these platform](https://linktr.ee/MohammedBehjoo)
 
 
 
