@@ -1,8 +1,8 @@
 
 
 
-> Written with [StackEdit](https://stackedit.io/).
-> # DigitalFUTURES Tutorial: Developing Custom Components in Grasshopper with Python
+
+# DigitalFUTURES Tutorial: Developing Custom Components in Grasshopper with Python
 
 
 
