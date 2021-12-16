@@ -6,7 +6,7 @@
 
 
 
-![cover_image](https://github.com/[mohammedbehjoo]/[DigitalFUTURES-Developing-Costum-Components-in-Grasshopper-with-Python]/blob/[main]/images/18%20December_Graphics_CS5-01.png?raw=true)
+![cover_image](images/18 December_Graphics_CS5-01.png)
 
 
 
