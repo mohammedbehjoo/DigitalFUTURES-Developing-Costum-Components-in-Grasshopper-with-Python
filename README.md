@@ -6,6 +6,10 @@
 
 
 
+![cover_image](https://github.com/[mohammedbehjoo]/[DigitalFUTURES-Developing-Costum-Components-in-Grasshopper-with-Python]/blob/[main]/images/18%20December_Graphics_CS5-01.png?raw=true)
+
+
+
 This is a Tutorial for DigitalFUTURES world.
 You can Find the Part 1 video [here](https://www.youtube.com/watch?v=UDuJm3PfnT4&t=1670s)
 
@@ -21,10 +25,11 @@ learning objetives of the First session:
 
 - Develop a customized surface paneling algorithm
 - Examples of mesh creation and subdivision
-- Working with HOPS Component adn its potential
+- Working with HOPS Component and its potential
 - Making fractals and a Parametric Vault
 
-
+## working files
+You can find the files [here](https://github.com/mohammedbehjoo/DigitalFUTURES-Developing-Costum-Components-in-Grasshopper-with-Python/tree/main/python_scripts). This is the folder containing Python scripts in the Tutorial session.
 ## Environment setup and requirements
 You should have Rhino 7.4 or above in order to have the HOPS properly.
 Also you should Install Python. It's better not to install the latest version of Python. maybe Python 3.7 or 3.8.
@@ -36,7 +41,7 @@ Also you should Install Python. It's better not to install the latest version of
     pip install ghhops-server flask 
     	 pip install rhinoinside
     
-## Instrcutor
+ ## Instrcutor
 You can find me on [these platform](https://linktr.ee/MohammedBehjoo)
 
 
