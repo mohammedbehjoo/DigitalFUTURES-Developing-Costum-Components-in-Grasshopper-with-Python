@@ -63,11 +63,13 @@ else:
 
     
     
-#should Initialize center_of_the_circle in grasshopper environment as a Point3D
+
 a=[]
+#x and y variables are int variables. initialize them in the grasshopper
 for i in range(x):
     for j in range(y):
         pt=rs.AddPoint(i,j,0)
+        #should Initialize center_of_the_circle in grasshopper environment as a Point3D
         center_dist=rs.Distance(center_of_the_circle,pt)
         z=math.sin(p+center_dist)
         a.append(rs.AddPoint(i,j,z))
