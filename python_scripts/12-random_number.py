@@ -10,6 +10,7 @@ sc.doc=rr.ActiveDoc
 
 
 #function to create a set of colored points
+#x,y,z, and r,g,b are int variables
 def createColoredPoint(x,y,z,r,g,b):
     currentColor = [r,g,b]
     pt = rs.AddPoint(x,y,z)
