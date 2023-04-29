@@ -1,24 +1,26 @@
 import rhinoscriptsyntax as rs
-import math
-
-a=[]
-for i in range(number):
-    x=(math.cos(i)*factor_x)
-    y=(math.sin(i)*factor_y)
-    p=rs.AddPoint(x,y,0)
-    a.append(p)
+import Rhino.Geometry as rg
+import System.Drawing as sd
+import Rhino.RhinoDoc as rr
+import scriptcontext as sc
 
 
+#get the active doc
+sc.doc=rr.ActiveDoc
 
-##########################
-##########################
-# then:
-import rhinoscriptsyntax as rs
-import math
 
-a=[]
-for i in range(number):
-    x=(math.cos(i)*factor_x)
-    y=(math.sin(i)*factor_y)
-    p=rs.AddPoint(x,y,0)
-    a.append(p)
+#function to create a set of colored points
+def createColoredPoint(x,y,z,r,g,b):
+    currentColor = [r,g,b]
+    pt = rs.AddPoint(x,y,z)
+    rs.ObjectColor(pt, currentColor)
+
+
+rs.EnableRedraw(False)
+
+
+for x in range(0,256, step):
+    for y in range(0,256, step):
+        for z in range(0,256,step):
+            createColoredPoint(x,y,z,x,y,z)
+rs.Redraw()
